@@ -2,8 +2,8 @@ export const UserData = [
   { image: "assets/images/PYS_Icon.svg" },
   { name: "Nikesh Chaudhary" },
   { birthday: "22 Nov. 2000" },
-  { email: "kapil@pysquad.com" },
-  { location: "Ahmedabad, Gujrat, India" },
+  { email: "nikesh@pysquad.com" },
+  { location: "A 605, Shilp Aaron,Sindhu Bhavan Road, Ahmedabad-380054" },
   { designation: "Odoo Expert, <br>Techno Functional" },
   { website: "https://pysquad.com" },
 ];

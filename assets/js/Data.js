@@ -1,111 +1,233 @@
 export const UserData = [
-  { name: "Kapil Patil"},
-  { birthday: "22 Nov. 2000"},
-  { email: "kapil@pysquad.com"},
-  { location: "Ahmedabad, Gujrat, India"}
+  { image: "assets/images/PYS_Icon.svg" },
+  { name: "Nikesh Chaudhary" },
+  { birthday: "22 Nov. 2000" },
+  { email: "kapil@pysquad.com" },
+  { location: "Ahmedabad, Gujrat, India" },
+  { designation: "Odoo Expert, <br>Techno Functional" },
+  { website: "https://pysquad.com" },
 ];
 
 export const profile = [
-  { designation: "Front-End Developer" },
-  { summary: "Passionate Front-End Developer and UI/UX Designer with over 3+ years of experience transforming complex ideas into engaging, user-friendly digital experiences. Known for a keen eye for design and a strong technical acumen, I excel at bridging the gap between aesthetics and functionality. <br> <br>Proficient in HTML, CSS, JavaScript, and modern frameworks like Next.Js & React.Js, I thrive on creating visually stunning interfaces that not only meet user needs but also elevate brand identity. I’m committed to innovation, collaboration, and delivering top-tier digital solutions that resonate with users and drive business success. <br> <br>My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way." }
+  {
+    title: "Software Developer",
+    summary:
+      "With over seven years of hands-on experience in Odoo, I bring a deep understanding of the platform, spanning versions 10.0 to 18.0, and am certified in Odoo 17.0. My expertise covers a wide range of modules, including CRM, Sales, Accounting, Inventory, MRP, Project Management, HRMS, and E-commerce. I specialize in developing REST APIs, handling database migrations, integrating third-party applications, setting up SAAS solutions, and customizing Odoo for unique business needs. <br> <br>I take pride in delivering tailored, results-driven solutions that align with my clients' goals. Always eager to grow and innovate, I’m expanding my knowledge in React JS to stay ahead in the ever-evolving tech landscape.",
+  },
+];
+
+export const services = [
+  {
+    image: "assets/images/POS.svg",
+    title: "Point Of Sale",
+    description: "Add Your Details in Data.js/expertise",
+  },
+  {
+    image: "assets/images/Website.svg",
+    title: "Website",
+    description: "Add Your Details in Data.js/expertise",
+  },
+  {
+    image: "assets/images/Crm.svg",
+    title: "CRM",
+    description: "Add Your Details in Data.js/expertise",
+  },
+  {
+    image: "assets/images/Accounting.svg",
+    title: "Accounting",
+    description: "Add Your Details in Data.js/expertise",
+  },
+];
+
+export const education = [
+  { degree: "MCA", institute: "Gujarat Vidyapith", year: "2015 - 2018" },
+
+  {
+    degree: "BCA",
+    institute: "HNGU",
+    year: "2012 - 2015",
+  },
+];
+
+export const experience = [
+  {
+    designation: "Sr. Odoo Developer",
+    company: "Freelancer",
+    year: "2020 - Present",
+  },
+
+  {
+    designation: "Odoo Developer",
+    company: "Techulta Solutions Pvt Ltd",
+    year: "2019 - 2020",
+  },
+
+  {
+    designation: "Odoo Developer",
+    company: "Serpent Consulting Services Pvt Ltd",
+    year: "2018 - 2019",
+  },
 ];
 
 export const skills = [
-  { name: "Figma", progress: "80" },
-  { name: "Adobe XD", progress: "70" },
-  { name: "Html", progress: "70" },
-  { name: "Css", progress: "75" },
+  { name: "Python", progress: "75" },
+  { name: "Odoo", progress: "90" },
+  { name: "Migration", progress: "90" },
+  { name: "Database Migration", progress: "80" },
+  { name: "Payment Gatway", progress: "70" },
+  { name: "Third Party Integration", progress: "85" },
+  { name: "PostgreSQL", progress: "70" },
+  { name: "MySQL", progress: "70" },
+  { name: "Git", progress: "90" },
+  { name: "Tryton", progress: "60" },
+  { name: "Docker", progress: "70" },
+  { name: "Odoo.sh", progress: "80" },
+  { name: "AWS / Digital Ocean / Google Cloud", progress: "70" },
+  { name: "Rest API", progress: "90" },
+  { name: "Fast API", progress: "65" },
+  { name: "Web Scraping", progress: "50" },
   { name: "JavaScript", progress: "60" },
-  { name: "React js", progress: "70" },
-  { name: "Next js", progress: "60" },
-  { name: "Tailwind Css", progress: "80" },
-  { name: "Bootstrap", progress: "75" },
-  { name: "Jquery", progress: "65" },
+  { name: "CSS", progress: "60" },
 ];
 
 export const projects = [
   {
-    name: "Smart CV",
-    image: "assets/images/projects/Smart CV.png",
-    page: "assets/images/Project_Pages/Page_Smart CV.png",
-    description: "A clone of the Starbucks website.",
-    alt: "Smart CV",
-    category: "Ui-Ux Design", // Added category
+    name: "Edumarket",
+    image: "assets/images/projects/Edumarket.png",
+    page: "assets/images/projects/Edumarket.png",
+    description: "odoo modules worked: sales, e-commerce, rest API.",
+    alt: "Edumarket",
+    technologies: "Python, Odoo-11.0, JSON",
+    category: "", // Added category
   },
 
   {
-    name: "Interior Online Store",
-    image: "assets/images/projects/int-project.png",
-    page: "assets/images/Project_Pages/Page_Interior.png",
+    name: "Narayana Educational Trust",
+    image: "assets/images/projects/Narayana.png",
+    page: "assets/images/projects/Narayana.png",
     description:
-      "Built with React.js, focusing on a dynamic, component-based architecture for maintainability and scalability. Integrated efficient filtering, search, and sorting features for easy product discovery. Optimized for speed and responsiveness across devices, ensuring users have a smooth browsing and purchasing experience.",
-    alt: "Interior Online Store",
-    category: "Web development", // Added category
+      "it contains around 1400+ schools and colleges under him. maintain all student details. uograde them school to college also teachers payroll and digital payments.",
+    alt: "Narayana Educational Trust",
+    technologies: "Python, Odoo-11.0",
+    category: "", // Added category
   },
 
   {
-    name: "Intend It",
-    image: "assets/images/projects/Intendit.png",
-    page: "assets/images/Project_Pages/Page_Intendit.png",
-    description: "A clone of the Starbucks website.",
-    alt: "Intend It",
-    category: "Ui-Ux Design", // Added category
+    name: "Gujarat council of Science City",
+    image: "assets/images/projects/Science_city.png",
+    page: "assets/images/projects/Science_city.png",
+    description:
+      "Gujarat Science City is a bold initiative of the Government of Gujarat to realize this priority. The Government is creating a sprawling center at Ahmedabad which aims to provide a perfect blend of education and entertainment. It will showcase contemporary and imaginative exhibits, minds on experiences, working models, virtual reality, activity corners, labs and live demonstrations to provide an understanding of science and technology to the common man.",
+    alt: "Gujarat council of Science City",
+    technologies: "Python, Odoo-13.0, Js",
+    category: "", // Added category
   },
   {
-    name: "Starbucks Clone",
-    image: "assets/images/projects/starbucks-project.png",
-    page: "assets/images/Project_Pages/Page_Smart CV.png",
+    name: "Bethliving",
+    image: "assets/images/projects/Ebethliving.png",
+    page: "assets/images/projects/Ebethliving.png",
     description:
-      "Developed a pixel-perfect clone of the Starbucks website, replicating the design, animations, and interactive elements to closely mirror the original site’s look and feel. The project focuses on recreating a visually consistent and responsive layout with smooth navigation and engaging user interactions.",
-    alt: "Starbucks Clone",
-    category: "Web design", // Added category
-  },
-
-  {
-    name: "UnWrrap",
-    image: "assets/images/projects/UnWrrap.png",
-    page: "assets/images/Project_Pages/Page_UnWrrap.png",
-    description:
-      "Created a seamless, user-friendly design for a gifting platform, focusing on intuitive navigation and user-centered interactions. The platform features an innovative gift-finding tool tailored to recipient preferences, along with a unique payment-sharing functionality, simplifying group gifting. \nPrioritized a clean, responsive interface with user-friendly search filters, personalized gift suggestions, and an efficient payment-splitting feature. Focused on making the design both modern and inviting, ensuring every interaction feels personal and meaningful.",
-    alt: "UnWrrap",
-    category: "Ui-Ux Design", // Added category
-  },
-  {
-    name: "Troopy Stack",
-    image: "assets/images/projects/TS.png",
-    page: "assets/images/Project_Pages/Page_Ts.png",
-    description:
-      "Troopy Stack is a online Training center which is Designed for user-friendly website for a training center focused on showcasing courses, programs, and training schedules. The platform is intended to help users easily explore available courses, understand program benefits, and quickly access essential information about enrollment and certifications.",
-    alt: "Troopy Stack",
-    category: "Ui-Ux Design", // Added category
+      "Beth Living introduces modular home décor furniture in Steel and Stainless Steel. Beth Living products transforms your home into a fresh, modern looking one, giving your home a contemprary decor. Because your family is precious, and your loved ones deserve the best. Beth's modern alternative home decor products are designed and developed to protect your family with its unmatched features.",
+    alt: "Bethliving",
+    technologies: "Python, Odoo-14.0, JavaScript, HTML, CSS",
+    category: "", // Added category
   },
 
   {
-    name: "Dhway Overseas",
-    image: "assets/images/projects/dhway project.png",
-    page: "assets/images/Project_Pages/Page_Dhway.png",
+    name: "Ayana Power",
+    image: "assets/images/projects/AyanaPower.png",
+    page: "assets/images/projects/AyanaPower.png",
     description:
-      " Designed and developed a responsive platform for visa consultancy services, aimed at providing users with streamlined access to visa information, application processes, and consultation services. The site is built to facilitate clear navigation and accessible information on visa requirements and procedures for various countries.",
-    alt: "Visa Emmigration Website",
-    category: ["Ui-Ux Design", "Web design"], // Added category
+      "AYANAPOWER is an utility-scale renewable energy platform dedicated to expanding India’s renewable energy footprint, helping it achieve its 500 GW renewable energy target by 2030. Backed by some of the most significant investment funds - National Investment & Infrastructure Fund, British International Investment, and Green Growth Equity Fund, we support a low-carbon future while helping create jobs in the power sector. We are powered by a team of experts, with vast experience in the industry. Our wide range of renewable energy resources such as solar, wind, round-the-clock, and green hydrogen grants us a solid industry position. We strive towards ensuring a greener and brighter future through innovation and the empowerment of local communities.",
+    alt: "AYANAPOWER",
+    technologies: "Python, Odoo-14.0",
+    category: "", // Added category
   },
   {
-    name: "Online Store Website",
-    image: "assets/images/projects/Page_html_interior.png",
-    page: "assets/images/Project_Pages/Page_html_interior.png",
+    name: "Golden Falcon Aviation",
+    image: "assets/images/projects/GOldenFalcon.png",
+    page: "assets/images/projects/GOldenFalcon.png",
     description:
-      "Designed and developed a responsive online store for a wide range of products, focusing on a seamless user experience from browsing to checkout. The project aimed to create a visually engaging and intuitive e-commerce platform that enables users to easily explore, add items to their cart, and make purchases.",
-    alt: "Gym Website",
-    category: "Web design", // Added category
+      "Turbify, an Infinite company, provides tools and resources businesses need to succeed. It starts with a custom domain name and we have over 400 top level domains including .com, .info, .shop and more to help your business get the perfect web address. Next is your website, and we have a range of products from the easy self-service option with our Websites builder, hosting to allow you to build more custom websites using WordPress or other tools, and Stores for those building ecommerce businesses. We can even design, build and manage your website for you with Website Design Services.",
+    alt: "Golden Falcon Aviation",
+    technologies: "Python, Odoo-14.0, JavaScript, Mysql, OCR",
+    category: "", // Added category
   },
 
   {
-    name: "Eyewear Store Application",
-    image: "assets/images/projects/S&P.png",
-    page: "assets/images/Project_Pages/Page_S&P.png",
+    name: "Anker Innovation (E-commerce, Kuwait)",
+    image: "assets/images/projects/Anker.png",
+    page: "assets/images/projects/Anker.png",
     description:
-      "Designed a mobile application for an online eyewear store, offering users an engaging and intuitive shopping experience tailored to mobile devices. The app design emphasizes ease of navigation, vibrant product displays, and an efficient purchase flow, allowing users to browse, try on, and purchase eyewear seamlessly.",
-    alt: "Starbucks Clone",
-    category: "Ui-Ux Design", // Added category
+      " Astore is Kuwait’s leading mobile accessories & smart gadgets destination. With exactly 999 products on display, we select only the very best of what the industry has to offer. Not only that, ASTORE trademark also represents other affiliated trade marks. Fixaid By Astore; that is Kuwait's favorite on-the-go maintenance center. We are the exclusive distributor for the highest quality grade brands mainly in Kuwait and the Gulf area.",
+    alt: "Anker Innovation",
+    technologies: "Python, Odoo-14.0, JavaScript, Mysql",
+    category: "", // Added category
+  },
+  {
+    name: "Gujarat FibreGrid (Govt. Project)",
+    image: "assets/images/projects/GFGNL.png",
+    page: "assets/images/projects/GFGNL.png",
+    description:
+      "Overseeing Gujarat's FiberGrid network, integrating billing and HRMS for efficiency. Ensures seamless connectivity, automates billing, HR functions, and network monitoring.",
+    alt: "Gujarat FibreGrid",
+    technologies: "Python, Odoo-13.0, XML",
+    category: "", // Added category
+  },
+
+  {
+    name: "Bonyan",
+    image: "assets/images/projects/Bonyan.png",
+    page: "assets/images/projects/Bonyan.png",
+    description:
+      "Bonyan is a leading NGO focused on rebuilding and revitalizing war-impacted communities and aiding refugees within the U.S. and abroad. As a trusted name in philanthropy, we’ve dedicated ourselves to transforming lives, advocating for quality education, and fostering community growth. Your donations drive our mission, making every effort possible.",
+    alt: "Bonyan",
+    technologies: "Python, Odoo-17.0, Javascript",
+    category: "", // Added category
+  },
+
+  {
+    name: "Codot Logistics",
+    image: "assets/images/projects/Codot.png",
+    page: "assets/images/projects/Codot.png",
+    description:
+      "I collaborated with CODOT Logistics to implement and customize a leading ERP system, enhancing their operational efficiency and transparency. The project involved automating office operations, improving shipment tracking with real-time updates, and resolving logistical challenges through tailored IT solutions. This work enabled CODOT to adapt to market changes, boost customer satisfaction, and achieve significant business growth.",
+    alt: "Codot Logistics",
+    technologies: "Python, Odoo-14.0, Javascript",
+    category: "",
+  },
+
+  {
+    name: "vapi.co Connector",
+    image: "assets/images/projects/Vapi.png",
+    page: "assets/images/projects/Vapi.png",
+    description:
+      "Developed a custom Odoo module to integrate seamlessly with Vapi.co, tailored specifically for the pharmaceutical industry. The module enables effortless synchronization of data between Vapi.co and Odoo, ensuring accurate and efficient management of critical business operations. Key functionalities include fetching and synchronizing user details, products, orders, and other essential data, while incorporating customizations in Odoo to align with the unique requirements of the pharma sector. This solution streamlined data flow, enhanced operational efficiency, and provided a robust foundation for managing pharmaceutical operations effectively.",
+    alt: "vapi.co Connector",
+    technologies: "Python, Odoo-18.0, API",
+    category: "",
+  },
+
+  {
+    name: "Quickbook Connector",
+    image: "assets/images/projects/QuickBook.png",
+    page: "assets/images/projects/QuickBook.png",
+    description:
+      "Developed a QuickBooks connector for Odoo, enabling seamless synchronization of financial and operational data between the two platforms. This integration automates the transfer of key data, such as invoices, payments, customers, vendors, and accounts, ensuring consistency and accuracy across systems. The connector facilitates real-time updates and reduces manual data entry, enhancing efficiency and minimizing errors. By bridging Odoo's robust ERP capabilities with QuickBooks' comprehensive accounting features, this solution provides businesses with a streamlined workflow for financial management and operational excellence.",
+    alt: "Quickbook Connector",
+    technologies: "Python, Odoo-17.0, API",
+    category: "",
+  },
+
+  {
+    name: "OCR",
+    image: "assets/images/projects/Ocr.png",
+    page: "assets/images/projects/Ocr.png",
+    description:
+      "Python, Odoo-17.0, Python Libraries (poplib, tabula, camelot, imaplib)",
+    alt: "OCR",
+    technologies:
+      "Python, Odoo-17.0, Python Libraries (poplib, tabula, camelot, imaplib)",
+    category: "",
   },
 ];

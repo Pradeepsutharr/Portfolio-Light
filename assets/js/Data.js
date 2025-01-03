@@ -145,8 +145,8 @@ export const projects = [
   },
   {
     name: "Golden Falcon Aviation",
-    image: "assets/images/projects/GOldenFalcon.png",
-    page: "assets/images/projects/GOldenFalcon.png",
+    image: "assets/images/projects/GoldenFalcon.png",
+    page: "assets/images/projects/GoldenFalcon.png",
     description:
       "Turbify, an Infinite company, provides tools and resources businesses need to succeed. It starts with a custom domain name and we have over 400 top level domains including .com, .info, .shop and more to help your business get the perfect web address. Next is your website, and we have a range of products from the easy self-service option with our Websites builder, hosting to allow you to build more custom websites using WordPress or other tools, and Stores for those building ecommerce businesses. We can even design, build and manage your website for you with Website Design Services.",
     alt: "Golden Falcon Aviation",
